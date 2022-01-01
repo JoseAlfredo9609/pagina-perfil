@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #F7F7F7 ;
+}
+
+.header{
+	display: flex; 
+	height: 350px;
+	background-color: #4E4D4D;
+	padding: 0px;
+}
+.contenedor{
+	text-align: center;
+	margin: 0 auto;
+	width: 800px;
+	height: 350px;
+	background-color: rgba(0, 0, 0, .2);
+	padding: 10px;
+
+}
+
+img {
+	width: 150px;
+	height: 250px;
+	border-radius: 50%;
+}
+h1{
+	color:  white;
+}
+
+.redes {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.redes li{
+	display: inline-block;
+	margin: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.icono{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background-size: cover;
+}
+
+.correo{
+
+	background-image: url("gmail.png") ;
+}
+
+.facebook{
+	background-image: url("facebook.png") ;
+}
+
+.descripcion{
+	padding: 20px 60px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+p {
+	font-size: 25px;
+	text-align: justify;
+}
