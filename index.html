@@ -1,32 +1,92 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="estilo.css"> <meta charset="utf-8">
-	<title>Perfil</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-	<div class="header">
-		<div class="contenedor">
-			<img src="imag.jpg">
-			<h1> Ing. Jose Alfredo Muñoz Ramirez</h1>	
-		</div>
-	</div>
-	<ul class="redes" class="">
-		<li>
-			<i class="icono correo"></i>
-			<a href="mailto:josemura.9609@gmail.com"> josemura.9609@gmail.com</a>
-		</li>
-		<li>
-			<i class="icono facebook"></i>
-			<a href=https://www.facebook.com/josealfredo.munozramirez.9> Pepe Ramirez</a>
-		</li>
-	</ul>
-	<div class="descripcion">
-		<h2>Acerca sobre mi</h2>
-		<p>
-			Egresado de Licenciatura en Ingeniería Mecatrónica. Siempre en disposición de trabajar en equipo y contribuir a mejorar el entorno que me rodea. Comprensión clara de diferentes software y sistemas de control. Formación en conocimientos prácticos de ingeniería y matemáticas. Apasionado de la tecnología y la investigación. Me gusta aprender cosas nuevas, estar en un constante desarrollo personal e involucrarme en proyectos altruistas y medioambientales. Me gusta salir a correr y mantenerme activo.
-		</p>
-	</div>
-</body>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina Web</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header" id="inicio">
+            <img src="img/menu.svg" alt="" class="menu">
+            <nav class="menu-navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicio">A cerca de mi</a>
+                <a href="#portafolio">Habilidades tecnicas</a>
+                <a href="#expertos">Repositorio</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="contenedor head">
+                <h1 class="titulo">Ingeniero José Alfredo Muñoz Ramírez</h1>
+                <p class="copy">Software Developer</p>
+            </div>
+        </header> 
+        <main>
+            <section class="services contenedor" id="servicio">
+                <h2 class="subtitulo">Acerca de mi</h2>
+                <div class="contenedor-servicio">
+                    <img src="img/yo2.jpg" alt="">
+                    <div class="checklist-servicio">
+                        <div class="service">
+                            <p>Egresado de Licenciatura en Ingeniería Mecatrónica. Siempre en disposición de trabajar 
+                                en equipo y contribuir a mejorar el entorno que me rodea. Comprensión clara de diferentes software y sistemas de control. Formación en conocimientos prácticos de ingeniería y matemáticas. Apasionado de la tecnología y la investigación. Me gusta aprender cosas nuevas, estar en un constante desarrollo personal e involucrarme en proyectos altruistas y medioambientales. Me gusta salir a correr y mantenerme activo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery" id="portafolio">
+                <h2 class="subtitulo">Habilidades tecnicas</h2>
+                <div class="contenedor-galeria">
+                  <img src="img/java.jpg" alt=""class="img-galeria">
+                  <img src="img/spring2.jpg" alt=""class="img-galeria">
+                  <img src="img/sql2.png" alt=""class="img-galeria">
+                  <img src="img/3.png" alt=""class="img-galeria">
+                  <img src="img/postman.jpg" alt=""class="img-galeria">
+                  <img src="img/git2.png" alt=""class="img-galeria">  
+                </div>
+            </section>
+            <section class="imagen-light">
+                <img src="img/close.svg" alt="" class="close">
+                <img src="img/woman.jpg" alt="" class="agregar-imagen">
+            </section>-
+            <section class="contenedor" id="expertos">
+                <h2 class="subtitulo">Repositorio de proyectos</h2>
+                <section class="experts">
+                    <div class="cont-expert">
+                        <a href="https://github.com/JoseAlfredo9609/PerfilBanco2.git" class="repository">
+                            <i class='bx bxs-folder-open'></i>Proyecto perfil bancario - spring boot
+                        </a><br>
+                        <a href="https://github.com/JoseAlfredo9609/RuletaRest.git" class="repository">
+                            <i class='bx bxs-folder-open'></i>Proyecto Ruleta - spring boot
+                        </a><br>
+                        <a href="https://github.com/JoseAlfredo9609/pagina-perfil.git" class="repository">
+                            <i class='bx bxs-folder-open'></i>Proyecto pagina web - frontend
+                        </a><br>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer id="contacto">
+            <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Pepe Ramirez</h2>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/josealfredo.munozramirez.9" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i> 
+                    </a>
+                    <a href="https://www.instagram.com/pepe_mura96/?hl=es" class="social-media-icon">
+                        <i class='bx bxl-instagram'></i> 
+                    </a>
+                </div>  
+            </div>  
+            <div class="line"></div>  
+        </footer>
+
+        <script src="js/menu.js"></script>
+        <script src="js/lightbox.js"></script>
+    </body>
 </html>
